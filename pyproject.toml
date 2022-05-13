@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonintermediate"
+version = "0.1.0"
+description = "Python exercises"
+authors = ["rrobles9112 <rrobles9112@gmail.com>"]
+license = "GPL"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+Ipykernel = "6.13.0"
+PyPDF2 = "1.27.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

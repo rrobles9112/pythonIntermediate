@@ -17,3 +17,6 @@ f = LetterFilter(s)
 
 print(f.filter_vowels())
 print(f.filter_consonants())
+
+for i in range(2, 3):
+    print(i)
