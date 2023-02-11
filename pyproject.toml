@@ -6,13 +6,14 @@ authors = ["rrobles9112 <rrobles9112@gmail.com>"]
 license = "GPL"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 beautifulsoup4 = "^4.11.1"
 requests = "^2.27.1"
 flake8 = "^4.0.1"
 black = "^22.3.0"
 isort = "^5.10.1"
 selenium = "^4.1.5"
+ccxt = "^2.7.78"
 
 [tool.poetry.dev-dependencies]
 Ipykernel = "6.13.0"

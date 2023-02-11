@@ -1,4 +1,4 @@
-import ccxt
+import cctx
 import asyncio
 
 # Inicializa una instancia de Binance
