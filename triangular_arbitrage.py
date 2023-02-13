@@ -1,5 +1,13 @@
 import ccxt
 import asyncio
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+binance_api_key = os.getenv('BINANCE_API_KEY')
+binance_secret_key = os.getenv('BINANCE_SECRET_KEY')
+
 
 # Inicializa una instancia de Binance
 exchange = ccxt.binance({
