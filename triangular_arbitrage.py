@@ -11,8 +11,8 @@ binance_secret_key = os.getenv('BINANCE_SECRET_KEY')
 
 # Inicializa una instancia de Binance
 exchange = ccxt.binance({
-    'apiKey': 'xYGFvuHiIV5xpKoM5YIGFtn7u50jDS6TueaIMYyscuvm8bd00O2ah2gvdddgreVd',
-    'secret': 'D39BeqONmsyLp8aDG6KLJlTuyIYgCDlAFMlwNR4xdsCwmBjm4twnQkzQi0eD2Sf7',
+    'apiKey': binance_api_key,
+    'secret': binance_secret_key,
 })
 
 # Define las tres criptomonedas que utilizarás para el arbitraje triangular
