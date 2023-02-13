@@ -1,8 +1,11 @@
-import cctx
+import ccxt
 import asyncio
 
 # Inicializa una instancia de Binance
-exchange = ccxt.binance()
+exchange = ccxt.binance({
+    'apiKey': 'xYGFvuHiIV5xpKoM5YIGFtn7u50jDS6TueaIMYyscuvm8bd00O2ah2gvdddgreVd',
+    'secret': 'D39BeqONmsyLp8aDG6KLJlTuyIYgCDlAFMlwNR4xdsCwmBjm4twnQkzQi0eD2Sf7',
+})
 
 # Define las tres criptomonedas que utilizarás para el arbitraje triangular
 symbol_1 = 'BTC/USDT'
